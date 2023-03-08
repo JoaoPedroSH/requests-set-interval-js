@@ -24,7 +24,7 @@ const put = async () => {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-      "id": 1,
+      "id": 0,
       "nome": "Testando Put"
     })
   });
